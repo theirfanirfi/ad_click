@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="3" > -->
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/home.css') }}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/homemodel.css') }}" />
+    
+  </head>
+  <body>
+    <div class="home">
+      <div class="rectangle-7">
+      </div>
+      <div class="container-4">
+        <a href="{{url_for('auth.logout')}}">
+        <img class="solarlogout-2-outline" src="{{url_for('static', filename='vectors/solarlogout2Outline2_x2.svg') }}" />
+        <div class="logout">
+        Logout
+        </div>
+      </a>
+      </div>
+
+
+      <div class="container-9">
+        <div class="container">
+          <div class="users">
+          Users
+          </div>
+          <div class="rectangle-6">
+          </div>
+        </div>
+        <div class="zondiconslist">
+          <img class="vector-8" src="{{url_for('static', filename='vectors/vector3_x2.svg') }}" />
+        </div>
+        <button id="myBtn" class="container-7">
+          <img class="group" src="{{url_for('static', filename='vectors/group1_x2.svg')}}" />
+          <div class="add-new-users">
+          Add new users
+          </div>
+        </button>
+      </div>
+
+      {% for job in jobs%}
+
+      <div class="container-8">
+        <div class="gmailgmail-com">
+        {{job.email}}
+        </div>
+        <div class="container-2">
+          <div class="off">
+          Off
+          </div>
+          <div class="container-6">
+            <div class="ellipse-1">
+            </div>
+          </div>
+          <div class="on">
+          On
+          </div>
+        </div>
+        <span class="password">
+        {{job.username}} 
+        </span>
+      </div>
+      <a href="{{url_for('job.initiate_job', job_id=job.id)}}" class="container-3">
+        <img class="vector-2" src="{{url_for('static', filename='vectors/vector19_x2.svg') }}" />
+        <span class="edit-user-info">
+        Edit user info
+        </span>
+      </a>
+      <div class="container-5">
+        <img class="vector" src="{{url_for('static', filename='vectors/vector15_x2.svg') }}" />
+        <div class="group-4">
+          <span class="view-stats">
+          View stats
+          </span>
+        </div>
+      </div>
+      <div class="container-1">
+        <img class="vector-1" src="{{url_for('static', filename='vectors/vector7_x2.svg') }}" />
+        <span class="delete-user">
+        Delete user
+        </span>
+      </div>
+    </div>
+
+{%endfor%}
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="">
+
+
+
+
+    <div class="container-24">
+      <div class="container-77">
+        <div class="add-new-user-job-1">
+        Add new user_JOB
+        </div>
+        <div class="icround-close close">
+          <img class="vector-10" src="{{url_for('static', filename='vectors/vector17_x2.svg') }}" />
+        </div>
+      </div>
+      <div class="rectangle-5">
+      </div>
+      <form action="{{url_for('job.add_job')}}" method="post">
+      <div class="container-31">
+        <span class="user-name">
+        User Name
+        </span>
+        <span class="email">
+        Email
+        </span>
+      </div>
+      <div class="container-44">
+        <input type="text" name="username" class="rectangle-2" />
+        <input type="email" name="email" class="rectangle-2" />
+      </div>
+      <div class="container-26">
+        <span class="password">
+        Password
+        </span>
+        <span class="keywords">
+        Keywords
+        </span>
+      </div>
+      <div class="container-44">
+        <input type="password" name="password" class="rectangle-2" />
+        <input type="text" name="keywords" placeholder="keyword1, keyword2" class="rectangle-2" />
+      </div>
+      <div class="containerr">
+        <span class="random-click-ads">
+        Random Click Ads
+        </span>
+        <span class="if-not-random-enter-string-to-be-included-in-domains-to-be-clicked">
+        If not Random, enter String to be included in Domain(s) to be Clicked
+        </span>
+      </div>
+      <div class="container-9">
+        <div class="container-17">
+          <div class="offf">
+          Off
+          </div>
+          <div class="container-3">
+            <div class="ellipse-2">
+            </div>
+          </div>
+          <div class="onn">
+          On
+          </div>
+        </div>
+        <input type="text" name="clickable_domain" placeholder="example.com" class="rectangle-2" />
+      </div>
+      <div class="enter-number-of-runs">
+      Enter Number of Runs
+      </div>
+      <input type="number" name="number_of_runs" placeholder="Enter Number of Runs" class="container-18" />
+      
+      <div class="enter-times-to-be-executed-or-leave-empty-for-random">
+      Enter Times to be Executed or leave empty for Random
+      </div>
+      <div class="container-10">
+        <div class="">
+          <input type="time" name="time" class="container-16" />
+        </div>
+      </div>
+      <button class="container-88">
+        <span class="add-new-user-job">
+        Add new USER_JOB
+        </span>
+      </button>
+      <form>
+    </div>
+
+
+
+  </div>
+
+</div>
+
+
+<script src="{{url_for('static', filename='js/homemodel.js') }}"></script>
+  </body>
+</html>

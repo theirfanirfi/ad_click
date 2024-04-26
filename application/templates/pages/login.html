@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}" />
+  </head>
+  <body>
+    <div class="login-2">
+      <div class="rectangle-1">
+      <form method="post" action="{{url_for('auth.login')}}">
+     
+      <p class="login-1">
+      Login
+      </p>
+      <div class="rectangle-5">
+      </div>
+      <div class="">
+      <label>Email</label><br/>
+      <input type="email" name="email" class="rectangle-2" />
+      </div>
+      <div class="">
+        <label>Password</label><br/>
+        <input type="password" name="password" class="rectangle-2" />
+        </div>
+      <button class="container">
+        <span class="login">
+        Login
+        </span>
+      </button>
+    </form>
+    </div>
+    </div>
+
+  </body>
+</html>

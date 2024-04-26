@@ -1,0 +1,534 @@
+.log-view .rectangle-7 {
+  opacity: 0.2;
+  background: #18B3E4;
+  position: absolute;
+  left: 68px;
+  bottom: 69px;
+  width: 1019px;
+  height: 65px;
+}
+.log-view .rectangle-8 {
+  opacity: 0.2;
+  background: #557AFF;
+  position: absolute;
+  left: 68px;
+  bottom: 0px;
+  width: 1019px;
+  height: 65px;
+}
+.log-view .rectangle-1 {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 18px 18px;
+  background: #FFFFFF;
+  margin-bottom: 29px;
+  width: 1280px;
+  height: 102px;
+}
+.log-view .users {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #3C3C3C;
+}
+.log-view .rectangle-6 {
+  border-radius: 4px;
+  background: var(--gre, linear-gradient(90deg, #18B3E4, #557AFF));
+  width: 90px;
+  height: 6px;
+}
+.log-view .container-5 {
+  margin: 5px 0 6px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.log-view .vector-9 {
+  width: 18px;
+  height: 12px;
+}
+.log-view .zondiconslist {
+  margin: 2px 8px 1px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 18px;
+  height: 12px;
+  box-sizing: border-box;
+}
+.log-view .add-list {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.log-view .container-4 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: linear-gradient(90deg, #18B3E4, #557AFF);
+  position: relative;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 0 13px 0;
+  width: 180px;
+  box-sizing: border-box;
+}
+.log-view .group {
+  margin-right: 15px;
+  width: 16px;
+  height: 16px;
+}
+.log-view .add-new-users {
+  margin-bottom: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.log-view .container-15 {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background: linear-gradient(90deg, #18B3E4, #557AFF);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 0;
+  width: 180px;
+  box-sizing: border-box;
+}
+.log-view .container-2 {
+  display: flex;
+  flex-direction: row;
+  width: 375px;
+  box-sizing: border-box;
+}
+.log-view .container-3 {
+  margin: 0 68px 40px 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1145px;
+  box-sizing: border-box;
+}
+.log-view .users-name {
+  position: relative;
+  margin: 6px 7.5px 7px 0;
+  display: inline-block;
+  width: 997.5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .off {
+  margin: 6px 8.2px 7px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .ellipse-1 {
+  border-radius: 13px;
+  background: var(--gre, linear-gradient(90deg, #18B3E4, #557AFF));
+  width: 26px;
+  height: 26px;
+}
+.log-view .container-11 {
+  border-radius: 14px;
+  background: #FFFFFF content-box, linear-gradient(90deg, #18B3E4, #557AFF) border-box;
+  border: 1px solid transparent;
+  position: relative;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1px;
+  width: 56px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.log-view .on {
+  margin: 6px 0 7px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-14 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.log-view .emailemail-com {
+  position: absolute;
+  left: 133px;
+  top: 6px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .instagram-user-name {
+  position: absolute;
+  left: 296px;
+  top: 6px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .instagram-password {
+  position: absolute;
+  left: 484px;
+  top: 6px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-17 {
+  position: relative;
+  margin: 0 74.8px 42px 94px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1111.2px;
+  box-sizing: border-box;
+}
+.log-view .users-name-1 {
+  position: relative;
+  margin: 5px 7.5px 8px 0;
+  display: inline-block;
+  width: 997.5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .off-1 {
+  margin: 6px 8.2px 7px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .ellipse-2 {
+  border-radius: 13px;
+  background: #C7C7C7;
+  width: 26px;
+  height: 26px;
+}
+.log-view .container-18 {
+  border-radius: 14px;
+  border: 1px solid #C7C7C7;
+  background: #FFFFFF;
+  position: relative;
+  margin-right: 8px;
+  padding: 1px;
+  width: 56px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.log-view .on-1 {
+  margin: 6px 0 7px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-16 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.log-view .emailemail-com-1 {
+  position: absolute;
+  left: 133px;
+  top: 5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .instagram-user-name-1 {
+  position: absolute;
+  left: 296px;
+  top: 5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .instagram-password-1 {
+  position: absolute;
+  left: 484px;
+  top: 5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-12 {
+  position: relative;
+  margin: 0 74.8px 0 94px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1111.2px;
+  box-sizing: border-box;
+}
+.log-view .vector-4 {
+  margin-right: 8px;
+  width: 16px;
+  height: 15px;
+}
+.log-view .edit-user-info {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-7 {
+  border-radius: 28px;
+  background: #FFFFFF content-box, linear-gradient(90deg, #18B3E4, #557AFF) border-box;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 361px;
+  bottom: 83px;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 0 11px 19px;
+  width: 142px;
+  box-sizing: border-box;
+}
+.log-view .vector-2 {
+  margin-right: 8px;
+  width: 15px;
+  height: 17px;
+}
+.log-view .delete-user {
+  margin: 1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-13 {
+  border-radius: 28px;
+  background: #FFFFFF content-box, linear-gradient(90deg, #18B3E4, #557AFF) border-box;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 211px;
+  bottom: 83px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  width: 142px;
+  box-sizing: border-box;
+}
+.log-view .vector-5 {
+  margin: 0 8px 1px 0;
+  width: 16px;
+  height: 15px;
+}
+.log-view .edit-user-info-1 {
+  margin-top: 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-9 {
+  border-radius: 28px;
+  background: #FFFFFF content-box, linear-gradient(90deg, #18B3E4, #557AFF) border-box;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 361px;
+  bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0 11px 19px;
+  width: 142px;
+  box-sizing: border-box;
+}
+.log-view .vector-3 {
+  margin-right: 8px;
+  width: 15px;
+  height: 17px;
+}
+.log-view .delete-user-1 {
+  margin-top: 2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .container-8 {
+  border-radius: 28px;
+  background: #FFFFFF content-box, linear-gradient(90deg, #18B3E4, #557AFF) border-box;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 211px;
+  bottom: 13px;
+  display: flex;
+  flex-direction: row;
+  padding: 9px 0 11px 0;
+  width: 142px;
+  box-sizing: border-box;
+}
+.log-view .group-1 {
+  opacity: 0.5;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 17px;
+  width: 1280px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.log-view .log {
+  margin: 15.2px 9.5px 0 0;
+  display: inline-block;
+  width: 375.9px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #3C3C3C;
+}
+.log-view .vector-10 {
+  width: 16.5px;
+  height: 16.5px;
+}
+.log-view .icround-close {
+  margin-bottom: 17.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 16.5px;
+  height: 16.5px;
+  box-sizing: border-box;
+}
+.log-view .container-10 {
+  margin: 0 20.8px 4px 20.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 401.9px;
+  box-sizing: border-box;
+}
+.log-view .rectangle-5 {
+  border-radius: 4px;
+  background: linear-gradient(90deg, #18B3E4, #557AFF);
+  margin: 0 42px 12px 0;
+  align-self: center;
+  width: 90px;
+  height: 6px;
+}
+.log-view .show-number-of-total-ads-clicks-show-domain-name-which-was-clicked-deleted-refereshed-every-24-hours {
+  margin: 12px 123.5px 184px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .rectangle-23 {
+  border-radius: 8px;
+  background: #18B3E4;
+  width: 13px;
+  height: 102px;
+}
+.log-view .container-1 {
+  border-radius: 16px 16px 16px 0;
+  background: #F5F5F5;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 17px 2px 0 2px;
+  width: 17px;
+  height: 211px;
+  box-sizing: border-box;
+}
+.log-view .container-6 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.log-view .container {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  background: #FFFFFF;
+  position: absolute;
+  left: 50%;
+  top: 191px;
+  translate: -50% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20.8px 0 0 41px;
+  box-sizing: border-box;
+}
+.log-view .logout {
+  opacity: 0.5;
+  position: absolute;
+  top: 46px;
+  right: 68.3px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #3C3C3C;
+}
+.log-view .solarlogout-2-outline {
+  opacity: 0.5;
+  position: absolute;
+  top: 42px;
+  right: 118px;
+  width: 24px;
+  height: 24px;
+}
+.log-view {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1280px;
+  box-sizing: border-box;
+}
